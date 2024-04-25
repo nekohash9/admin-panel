@@ -15,4 +15,4 @@ const writeData = async (url, data) => {
   await fs.writeFile(url, json);
 };
 
-module.exports = { readData, writeData }; 
+module.exports = { readData, writeData };
